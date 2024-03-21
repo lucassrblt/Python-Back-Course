@@ -18,7 +18,7 @@ match(prenom.lower()):
         print("Bonjour Lucas")
     case "jean":
         print("Bonjour Jean")
-    case _:
+    case _: # Equivalent au default
         print("Bonjour inconnu")
 
 
@@ -50,8 +50,7 @@ for _ in range(4):
 for i in range(10):
   # Passe au prochain élément
   if i % 2 == 0:
-    continue
+    continue # Passe à la prochaine occurence
   print(i)
-  # Sort de la boucle
   if i == 5:
-    break
+    break # Sors d'une boucle

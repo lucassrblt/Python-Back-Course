@@ -11,7 +11,7 @@ def diviseurs(a: int, b: int):
         print(f"La valeur {second_value} ne doit pas être supérieur à {a}") # Envoie d'une erreur customisé
     else: # Après les try et except, passe si le code n'est pas rentré dans un except (si il n'y a pas eu d'erreurs)
         print("Division sans souci")
-    finally:
+    finally: # Passe dans tous les cas
         print(f"J'ai tenté la division par {b}")
 
 
